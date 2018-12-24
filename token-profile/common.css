@@ -1,0 +1,118 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8fa;
+  font-size: 14px;
+  font-family: PingFangSC, Arial, Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration-line: none;
+  color: #456cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.card {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+
+.card:last-of-type {
+  flex: 1;
+}
+
+.card h5 {
+  margin: 0;
+  padding: 1px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 21px !important;
+  padding-bottom: 23px !important;
+}
+
+.header .price-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: right;
+}
+
+.price-title {
+  color: #6c7184;
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+.basic-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-info h5 {
+  font-size: 14px;
+}
+
+.basic-info > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  margin-top: 11px;
+}
+
+.basic-info > div span {
+  color: #989caa;
+  white-space: nowrap;
+}
+
+.basic-info .content {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 10px;
+}
+
+.basic-info .overview {
+  color: #989caa;
+  height: auto;
+  border-top: 1px solid #e9ebf0;
+  margin-top: 15px;
+  padding-top: 15px;
+  text-align: justify;
+  text-align-last: left;
+}
+
+.links a {
+  font-size: 18px;
+  line-height: 18px;
+  margin-left: 2px;
+}
+
+.basic-info .tital-supply {
+  display: none;
+}
